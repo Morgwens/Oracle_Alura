@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Encriptador</title>
+    
+</head>
+    <body>  
+        <div class="contenedor">    
+
+            <div class="logo">
+                <img class="imagenlogo"src="Imagenes/Vector.png" alt="logo">
+                    <h1 class="tituloprincipal">Encriptador</h1>
+            </div>
+
+            <div class="panelizquierdo"> 
+                <input id="text-input"  type="text" placeholder="Ingrese su texto aqui">
+
+            </div>
+
+            <div class="panelderecho">
+                <img id="imagen-nene" src="Imagenes/neneconlupa.png" alt="nene con una lupa">
+                <h1 id="texto-derecho">Ningún mensaje fue encontrado</h1>
+                <textarea id="desencriptador" name="" id="" cols="30" rows="10">Ingrese el texto que desees desencriptar</textarea>
+                <button type="button" id="boton-copiar" onclick="copiar()">Copiar texto</button>
+            </div>
+
+            <div class="left-buttons">
+                <p>Solo letras minúsculas y sin acentos</p>
+                <button type="button" id="boton-encriptar" onclick="encriptar()">Encriptar</button>
+                <button type="button" id="boton-desencriptar" onclick="desencriptar()">Desencriptar</button>
+
+            </div> 
+        
+        </div>
+    
+    </body>
+    <footer>
+        <p>María José Carrazán 2022</p>
+    </footer>
+</html>
